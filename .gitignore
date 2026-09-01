@@ -1,3 +1,28 @@
 History
 Project Logs*
 __Previews
+
+# --- MODULIQ Altium ignore rules ---
+
+# Altium generated directories
+History/
+__Previews/
+Project Logs for */
+Project Outputs for */
+Outputs/
+Generated/
+
+# Altium generated/transient files
+*.PrjPcbStructure
+*.PrjPCBStructure
+*.PcbDocPreview
+*.SchDocPreview
+
+# Backups / temporary files
+*.bak
+*.BAK
+~$*
+
+# Windows
+Thumbs.db
+Desktop.ini
